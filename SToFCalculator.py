@@ -1,5 +1,5 @@
 #Credit goes to https://github.com/Apexofacircle 
-print("Standard to factored form calcualtor")
+print("Standard to factored form calculator")
 print("Version: 1.0")
 print("Asuming: Ax^2 + Bx + C")
 
@@ -23,7 +23,7 @@ else: #If in the positives
         _Div += 1
         print (_Div, _Div / _Ac , _B)
  
-# Turn calculation into readable format
+#Turn calculation into readable format
 _DivAns = _Div / _A
 try:
     _Ans2 = (_Ac / _Div) / _A
