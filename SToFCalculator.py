@@ -13,7 +13,7 @@ _Div = 1
 _Ac = _A *_C
  
 #Calculate
-if _Ac >= _Div: #If in the negatives 
+if _Ac <= 0: #If in the negatives 
         _Div = -1
         while not (_Ac / _Div) + _Div == _B :
             _Div -= 1
